@@ -116,3 +116,26 @@ h1 {
     background-color: #16944a;
     text-decoration: line-through;
 }
+
+@media only screen and (max-width: 767px){
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+    }
+    .list_tasks {
+        margin-top: 5px;
+    }
+    .task {
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+        padding: 5px;
+        margin: 15px 0px;
+        background-color: #c4c1c17a;
+    }
+}
